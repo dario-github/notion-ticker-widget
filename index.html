@@ -16,73 +16,51 @@
     </div>
     <!-- TradingView Widget BEGIN -->
     <div class="tradingview-widget-container" id = "light">
-      <div class="tradingview-widget-container__widget"></div>
-      <div class="tradingview-widget-copyright"><a href="https://cn.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">行情</span></a>由TradingView提供</div>
-      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+      <div id="tradingview_3c689"></div>
+      <div class="tradingview-widget-copyright"><a href="https://cn.tradingview.com/symbols/SSE-000001/" rel="noopener" target="_blank"><span class="blue-text">000001图表</span></a>由TradingView提供</div>
+      <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+      <script type="text/javascript">
+      new TradingView.widget(
       {
-      "symbols": [
-        {
-          "proName": "BITSTAMP:BTCUSD",
-          "title": "Bitcoin"
-        },
-        {
-          "proName": "BITSTAMP:ETHUSD",
-          "title": "Ethereum"
-        },
-        {
-          "description": "上证",
-          "proName": "SSE:000001"
-        },
-        {
-          "description": "",
-          "proName": "CURRENCYCOM:EURCNH"
-        },
-        {
-          "description": "",
-          "proName": "FRED:SP500"
-        }
-      ],
-      "colorTheme": "light",
-      "isTransparent": true,
-      "showSymbolLogo": true,
-      "locale": "zh_CN"
+      "width": 400,
+      "height": 600,
+      "symbol": "SSE:000001",
+      "interval": "D",
+      "timezone": "Asia/Shanghai",
+      "theme": "light",
+      "style": "9",
+      "locale": "zh_CN",
+      "toolbar_bg": "#f1f3f6",
+      "enable_publishing": false,
+      "allow_symbol_change": true,
+      "container_id": "tradingview_3c689"
     }
+      );
       </script>
     </div>
     <!-- TradingView Widget END -->
     <!-- TradingView Widget BEGIN -->
-    <div class="tradingview-widget-container" id = "dark">
-      <div class="tradingview-widget-container__widget"></div>
-      <div class="tradingview-widget-copyright"><a href="https://cn.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">行情</span></a>由TradingView提供</div>
-      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+    <div class="tradingview-widget-container" id = "light">
+      <div id="tradingview_3c689"></div>
+      <div class="tradingview-widget-copyright"><a href="https://cn.tradingview.com/symbols/SSE-000001/" rel="noopener" target="_blank"><span class="blue-text">000001图表</span></a>由TradingView提供</div>
+      <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+      <script type="text/javascript">
+      new TradingView.widget(
       {
-      "symbols": [
-        {
-          "proName": "BITSTAMP:BTCUSD",
-          "title": "Bitcoin"
-        },
-        {
-          "proName": "BITSTAMP:ETHUSD",
-          "title": "Ethereum"
-        },
-        {
-          "description": "上证",
-          "proName": "SSE:000001"
-        },
-        {
-          "description": "",
-          "proName": "CURRENCYCOM:EURCNH"
-        },
-        {
-          "description": "",
-          "proName": "FRED:SP500"
-        }
-      ],
-      "colorTheme": "dark",
-      "isTransparent": true,
-      "showSymbolLogo": true,
-      "locale": "zh_CN"
+      "width": 400,
+      "height": 600,
+      "symbol": "SSE:000001",
+      "interval": "D",
+      "timezone": "Asia/Shanghai",
+      "theme": "dark",
+      "style": "9",
+      "locale": "zh_CN",
+      "toolbar_bg": "#f1f3f6",
+      "enable_publishing": false,
+      "allow_symbol_change": true,
+      "container_id": "tradingview_3c689"
     }
+      );
       </script>
     </div>
     <!-- TradingView Widget END -->
